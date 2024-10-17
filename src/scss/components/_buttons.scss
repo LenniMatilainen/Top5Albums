@@ -1,0 +1,26 @@
+
+.btn {
+    position: absolute;
+    left: 50%;
+    bottom: 48px;
+    transform: translate(-50%);
+    text-decoration: none;
+    color: white;
+    width: min-content;
+    display: inline;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-block: 0;
+    padding-inline: 0;
+}
+
+@media (min-width: 1200px) {
+    .btn {
+        font-size: 4em;
+        position: absolute;
+        left: 50%;
+        bottom: 48px;
+        transform: translate(-50%);
+    }
+}

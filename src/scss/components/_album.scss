@@ -1,0 +1,17 @@
+.album > .title > h3 {
+    line-height: 0.1;
+}
+
+.title > h3 {
+    margin-right: 8px;
+}
+
+.title > h3, .title > h5 {
+    display: inline;
+}
+
+@media (min-width: 1200px) {
+    .album {
+        padding: 5rem 0;
+    }
+}

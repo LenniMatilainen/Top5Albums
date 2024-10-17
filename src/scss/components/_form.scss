@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 15px;
+}
+

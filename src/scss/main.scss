@@ -1,0 +1,27 @@
+/* Table of contents
+---------------------------
+
+
+-- bootstrap import
+-- base imports
+-- component imports
+-- layout imports
+
+*/
+
+
+@use "./bootstrap.scss";
+
+/* base imports */
+@use "./base/typography";
+
+/* components imports */
+@use "./components/album";
+@use "./components/buttons";
+@use "./components/form";
+
+/* layout imports */
+@use "./layout/bg-img";
+@use "./layout/body";
+@use "./layout/footer";
+@use "./layout/header";

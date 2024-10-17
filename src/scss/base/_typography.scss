@@ -1,0 +1,85 @@
+/* 
+- Typography
+*/
+
+@font-face {
+  font-family: 'Koulen';
+  src: url('../../fonts/Koulen-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Krub Medium';
+  src: url('../../fonts/Krub-Medium.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Krub';
+  src: url('../../fonts/Krub-Medium.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  font-weight: normal;
+}
+body {
+  font-family: 'Koulen', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Koulen';
+}
+
+
+p {
+  font-family: 'Krub';
+  margin-bottom: 1.25rem;
+  margin-top: 16px;
+}
+
+.btn {
+  font-family: 'Koulen';
+  color: white;
+  font-size: 3rem;
+}
+
+.header-title {
+  max-inline-size: 9ch;
+  text-wrap: balance;
+  line-height: 1;
+  font-size: calc(3.25rem + 0.9vw);
+}
+
+.header-txt {
+  font-family: 'Krub Medium';
+}
+
+label {
+  font-family: 'Krub';
+  font-size: 1.25rem;
+}
+
+.info {
+  font-size: 1.15rem;
+}
+
+@media (min-width: 998px) {
+  .header-title {
+    font-size: 7rem;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .header-title {
+    font-size: 10rem;
+  }
+}
+

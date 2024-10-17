@@ -1,0 +1,14 @@
+footer {
+  height: 100vh;
+  padding-top: 128px;
+  padding-bottom: 80px;
+  margin-top: 0;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    display: flex;
+    
+  }
+}

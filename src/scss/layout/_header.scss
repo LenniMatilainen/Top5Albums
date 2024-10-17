@@ -1,0 +1,24 @@
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+    padding-top: 128px;
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .begin-btn {
+        font-size: 4em;
+        position: absolute;
+        left: 50%;
+        bottom: 48px;
+        transform: translate(-50%);
+    }
+}

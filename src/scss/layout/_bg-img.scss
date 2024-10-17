@@ -1,0 +1,24 @@
+#bg-img-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px) brightness(60%); 
+    transition: opacity 1.25s ease;
+}
+
+.hidden {
+    opacity: 0;
+}
